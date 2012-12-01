@@ -69,8 +69,8 @@ implementation
 { TNLDOnOffSwitch }
 
 resourcestring
-  SOff = 'OFF';
-  SOn = 'ON';
+  SOff = 'No';
+  SOn = 'Yes';
 
 procedure TNLDOnOffSwitch.CMEnabledChanged(var Message: TMessage);
 begin
